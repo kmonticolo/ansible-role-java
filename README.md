@@ -63,7 +63,7 @@ For OpenBSD:
 
     - hosts: server
       roles:
-        - role: geerlingguy.java
+        - role: ansible-role-java
           when: "ansible_os_family == 'OpenBSD'"
           java_packages:
             - jdk-1.8.0.144v0
